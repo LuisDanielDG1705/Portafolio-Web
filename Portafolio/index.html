@@ -1,15 +1,17 @@
 <!DOCTYPE HTML>
 <!--
-	Aerial by HTML5 UP
+	Portfolio by HTML5 UP Aerial Template
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Aerial by HTML5 UP</title>
+		<title>[TU_NOMBRE] - Portafolio de Desarrollador</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Portafolio de [TU_NOMBRE], estudiante de Desarrollo Multiplataforma. Explora mis proyectos y aprende sobre mis habilidades en desarrollo web y móvil." />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/portfolio.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -18,28 +20,232 @@
 			<div id="overlay"></div>
 			<div id="main">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Adam Jensen</h1>
-						<p>Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this</p>
-						<nav>
+				<!-- ===== HEADER / HERO ===== -->
+				<header id="header">
+					<div class="header-content">
+						<!-- Foto/Avatar -->
+						<img src="assets/images/avatar.jpg" alt="[TU_NOMBRE]" class="avatar">
+						
+						<!-- Nombre y Título -->
+						<h1>[TU_NOMBRE]</h1>
+						<p class="title">Desarrollador Multiplataforma | Estudiante</p>
+						
+						<!-- Bio Corta -->
+						<p class="bio">[DESCRIPCIÓN CORTA: 2-3 LÍNEAS SOBRE TI Y TUS INTERESES]</p>
+						
+						<!-- Links Principales -->
+						<nav class="social-nav">
 							<ul>
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="[GITHUB_URL]" class="icon brands fa-github" title="GitHub"><span class="label">Github</span></a></li>
+								<li><a href="[LINKEDIN_URL]" class="icon brands fa-linkedin-in" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:[TU_EMAIL]" class="icon solid fa-envelope" title="Email"><span class="label">Email</span></a></li>
+								<li><a href="#cv" class="icon solid fa-file-pdf" title="Descargar CV"><span class="label">CV</span></a></li>
 							</ul>
 						</nav>
-					</header>
+					</div>
+				</header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+				<!-- ===== SKILLS / TECNOLOGÍAS ===== -->
+				<section id="skills" class="panel">
+					<div class="section-header">
+						<h2>Habilidades Técnicas</h2>
+					</div>
+					<div class="skills-grid">
+						<div class="skill-category">
+							<h3>Lenguajes</h3>
+							<div class="skill-tags">
+								<span class="skill-tag">[LENGUAJE_1]</span>
+								<span class="skill-tag">[LENGUAJE_2]</span>
+								<span class="skill-tag">[LENGUAJE_3]</span>
+							</div>
+						</div>
+						<div class="skill-category">
+							<h3>Frameworks & Librerías</h3>
+							<div class="skill-tags">
+								<span class="skill-tag">[FRAMEWORK_1]</span>
+								<span class="skill-tag">[FRAMEWORK_2]</span>
+								<span class="skill-tag">[FRAMEWORK_3]</span>
+							</div>
+						</div>
+						<div class="skill-category">
+							<h3>Herramientas</h3>
+							<div class="skill-tags">
+								<span class="skill-tag">[HERRAMIENTA_1]</span>
+								<span class="skill-tag">[HERRAMIENTA_2]</span>
+								<span class="skill-tag">[HERRAMIENTA_3]</span>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- ===== PROYECTOS ===== -->
+				<section id="projects" class="panel">
+					<div class="section-header">
+						<h2>Proyectos Destacados</h2>
+						<p>Los 4-6 mejores proyectos que he desarrollado</p>
+					</div>
+					
+					<div class="projects-grid">
+						<!-- PROYECTO 1 -->
+						<article class="project-card">
+							<div class="project-image">
+								<img src="assets/images/projects/proyecto-1.jpg" alt="[NOMBRE_PROYECTO_1]">
+							</div>
+							<div class="project-info">
+								<h3>[NOMBRE_PROYECTO_1]</h3>
+								<p class="project-description">[DESCRIPCIÓN CORTA DEL PROYECTO - 1-2 ORACIONES SOBRE QUÉ HACE Y POR QUÉ LO HICISTE]</p>
+								<div class="project-tech">
+									<span class="tech-badge">[TECH_1]</span>
+									<span class="tech-badge">[TECH_2]</span>
+									<span class="tech-badge">[TECH_3]</span>
+								</div>
+								<div class="project-links">
+									<a href="[GITHUB_PROYECTO_1]" class="link-btn" target="_blank">Ver Código</a>
+									<a href="[DEMO_PROYECTO_1]" class="link-btn link-demo" target="_blank">Demo</a>
+								</div>
+							</div>
+						</article>
+
+						<!-- PROYECTO 2 -->
+						<article class="project-card">
+							<div class="project-image">
+								<img src="assets/images/projects/proyecto-2.jpg" alt="[NOMBRE_PROYECTO_2]">
+							</div>
+							<div class="project-info">
+								<h3>[NOMBRE_PROYECTO_2]</h3>
+								<p class="project-description">[DESCRIPCIÓN CORTA DEL PROYECTO - 1-2 ORACIONES]</p>
+								<div class="project-tech">
+									<span class="tech-badge">[TECH_1]</span>
+									<span class="tech-badge">[TECH_2]</span>
+									<span class="tech-badge">[TECH_3]</span>
+								</div>
+								<div class="project-links">
+									<a href="[GITHUB_PROYECTO_2]" class="link-btn" target="_blank">Ver Código</a>
+									<a href="[DEMO_PROYECTO_2]" class="link-btn link-demo" target="_blank">Demo</a>
+								</div>
+							</div>
+						</article>
+
+						<!-- PROYECTO 3 -->
+						<article class="project-card">
+							<div class="project-image">
+								<img src="assets/images/projects/proyecto-3.jpg" alt="[NOMBRE_PROYECTO_3]">
+							</div>
+							<div class="project-info">
+								<h3>[NOMBRE_PROYECTO_3]</h3>
+								<p class="project-description">[DESCRIPCIÓN CORTA DEL PROYECTO - 1-2 ORACIONES]</p>
+								<div class="project-tech">
+									<span class="tech-badge">[TECH_1]</span>
+									<span class="tech-badge">[TECH_2]</span>
+									<span class="tech-badge">[TECH_3]</span>
+								</div>
+								<div class="project-links">
+									<a href="[GITHUB_PROYECTO_3]" class="link-btn" target="_blank">Ver Código</a>
+									<a href="[DEMO_PROYECTO_3]" class="link-btn link-demo" target="_blank">Demo</a>
+								</div>
+							</div>
+						</article>
+
+						<!-- PROYECTO 4 -->
+						<article class="project-card">
+							<div class="project-image">
+								<img src="assets/images/projects/proyecto-4.jpg" alt="[NOMBRE_PROYECTO_4]">
+							</div>
+							<div class="project-info">
+								<h3>[NOMBRE_PROYECTO_4]</h3>
+								<p class="project-description">[DESCRIPCIÓN CORTA DEL PROYECTO - 1-2 ORACIONES]</p>
+								<div class="project-tech">
+									<span class="tech-badge">[TECH_1]</span>
+									<span class="tech-badge">[TECH_2]</span>
+									<span class="tech-badge">[TECH_3]</span>
+								</div>
+								<div class="project-links">
+									<a href="[GITHUB_PROYECTO_4]" class="link-btn" target="_blank">Ver Código</a>
+									<a href="[DEMO_PROYECTO_4]" class="link-btn link-demo" target="_blank">Demo</a>
+								</div>
+							</div>
+						</article>
+
+						<!-- PROYECTO 5 (Opcional) -->
+						<article class="project-card">
+							<div class="project-image">
+								<img src="assets/images/projects/proyecto-5.jpg" alt="[NOMBRE_PROYECTO_5]">
+							</div>
+							<div class="project-info">
+								<h3>[NOMBRE_PROYECTO_5]</h3>
+								<p class="project-description">[DESCRIPCIÓN CORTA DEL PROYECTO - 1-2 ORACIONES]</p>
+								<div class="project-tech">
+									<span class="tech-badge">[TECH_1]</span>
+									<span class="tech-badge">[TECH_2]</span>
+									<span class="tech-badge">[TECH_3]</span>
+								</div>
+								<div class="project-links">
+									<a href="[GITHUB_PROYECTO_5]" class="link-btn" target="_blank">Ver Código</a>
+									<a href="[DEMO_PROYECTO_5]" class="link-btn link-demo" target="_blank">Demo</a>
+								</div>
+							</div>
+						</article>
+
+						<!-- PROYECTO 6 (Opcional) -->
+						<article class="project-card">
+							<div class="project-image">
+								<img src="assets/images/projects/proyecto-6.jpg" alt="[NOMBRE_PROYECTO_6]">
+							</div>
+							<div class="project-info">
+								<h3>[NOMBRE_PROYECTO_6]</h3>
+								<p class="project-description">[DESCRIPCIÓN CORTA DEL PROYECTO - 1-2 ORACIONES]</p>
+								<div class="project-tech">
+									<span class="tech-badge">[TECH_1]</span>
+									<span class="tech-badge">[TECH_2]</span>
+									<span class="tech-badge">[TECH_3]</span>
+								</div>
+								<div class="project-links">
+									<a href="[GITHUB_PROYECTO_6]" class="link-btn" target="_blank">Ver Código</a>
+									<a href="[DEMO_PROYECTO_6]" class="link-btn link-demo" target="_blank">Demo</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</section>
+
+				<!-- ===== SOBRE MÍ ===== -->
+				<section id="about" class="panel">
+					<div class="section-header">
+						<h2>Sobre Mí</h2>
+					</div>
+					<div class="about-content">
+						<p>[PÁRRAFO SOBRE TI: POR QUÉ TE INTERESA EL DESARROLLO, QUÉ TE MOTIVA, TU FILOSOFÍA DE TRABAJO. MÁXIMO 4-5 LÍNEAS]</p>
+						<p>[PÁRRAFO OPCIONAL: QUÉ ESTÁS APRENDIENDO ACTUALMENTE O EN QUÉ TE GUSTARÍA ESPECIALIZARTE]</p>
+					</div>
+				</section>
+
+				<!-- ===== CONTACTO / CTA ===== -->
+				<section id="contact" class="panel">
+					<div class="section-header">
+						<h2>Ponerse en Contacto</h2>
+						<p>¿Tenés un proyecto o pregunta? Me encantaría escucharte.</p>
+					</div>
+					<div class="contact-content">
+						<p class="contact-email">
+							📧 <a href="mailto:[TU_EMAIL]">[TU_EMAIL]</a>
+						</p>
+						<p class="contact-cta">O sígueme en redes:</p>
+						<div class="social-links">
+							<a href="[GITHUB_URL]" class="social-link" target="_blank">GitHub</a>
+							<a href="[LINKEDIN_URL]" class="social-link" target="_blank">LinkedIn</a>
+							<a href="#cv" class="social-link">Descargar CV</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- ===== FOOTER ===== -->
+				<footer id="footer">
+					<span class="copyright">&copy; 2026 [TU_NOMBRE]. Desarrollado con HTML, CSS y ❤️.</span>
+				</footer>
 
 			</div>
 		</div>
+
 		<script>
 			window.onload = function() { document.body.classList.remove('is-preload'); }
 			window.ontouchmove = function() { return false; }
