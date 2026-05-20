@@ -1,15 +1,23 @@
-/* ============================================
-   PORTFOLIO STYLES - Extensión para Portafolio
-   Compatibles con Aerial by HTML5 UP
-   ============================================ */
-
-/* ===== HEADER MEJORADO ===== */
 
 .header-content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 1.5em;
+}
+
+body {
+	overflow: auto;
+}
+
+#wrapper {
+	position: relative;
+	height: auto;
+}
+
+#main {
+	position: relative;
+	height: auto;
 }
 
 .avatar {
@@ -74,10 +82,8 @@
 	font-size: 1.5em;
 }
 
-/* ===== PANELES / SECCIONES ===== */
 
 .panel {
-	display: none;
 	opacity: 0;
 	animation: fadeIn 0.5s ease-in-out forwards;
 	padding: 3em 2em;
@@ -88,10 +94,6 @@
 
 .panel:first-of-type {
 	border-top: none;
-}
-
-.panel.active {
-	display: block;
 }
 
 @keyframes fadeIn {
@@ -122,7 +124,6 @@
 	margin: 0;
 }
 
-/* ===== SKILLS ===== */
 
 #skills {
 	background: rgba(0, 0, 0, 0.1);
@@ -182,7 +183,6 @@
 	transform: scale(1.05);
 }
 
-/* ===== PROYECTOS ===== */
 
 #projects {
 	background: transparent;
@@ -316,8 +316,6 @@
 	border-color: rgba(255, 255, 255, 0.5);
 }
 
-/* ===== SOBRE MÍ ===== */
-
 #about {
 	background: rgba(0, 0, 0, 0.1);
 }
@@ -339,8 +337,6 @@
 .about-content p:last-child {
 	margin-bottom: 0;
 }
-
-/* ===== CONTACTO ===== */
 
 #contact {
 	background: transparent;
@@ -402,8 +398,6 @@
 	box-shadow: 0 5px 15px rgba(52, 140, 178, 0.2);
 	border-bottom: 1px solid rgba(52, 140, 178, 1);
 }
-
-/* ===== RESPONSIVE ===== */
 
 @media screen and (max-width: 1280px) {
 	.skills-grid {
