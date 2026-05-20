@@ -84,8 +84,9 @@ body {
 
 
 .panel {
-	opacity: 0;
-	animation: fadeIn 0.5s ease-in-out forwards;
+	opacity: 1;
+	transform: none;
+	animation: none;
 	padding: 3em 2em;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -94,6 +95,10 @@ body {
 
 .panel:first-of-type {
 	border-top: none;
+}
+
+#main {
+	padding-top: 3rem;
 }
 
 @keyframes fadeIn {
